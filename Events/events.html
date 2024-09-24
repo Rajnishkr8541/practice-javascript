@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+</head>
+<body>
+    <h1>Amazing Images</h1>
+
+    <div>
+        <ul id="images">
+            <li><img  width="200px" id="photoshop" src="https://images.pexels.com/photos/28055774/pexels-photo-28055774/free-photo-of-a-bride-sitting-on-a-chair.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="photoshop"></li>
+            <li><img width="200px" src="https://images.pexels.com/photos/17231332/pexels-photo-17231332/free-photo-of-a-man-on-the-mountain-peak-in-the-fog.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" id="japan" alt=""></li>
+            <li><img src="https://images.pexels.com/photos/28302749/pexels-photo-28302749/free-photo-of-ynys-llanddwyn-anglesey-north-wales.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="200px" id="river" alt=""></li>
+            <li><img src="https://images.pexels.com/photos/53977/eagle-owl-raptor-falconry-owl-53977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="200px" id="owl" alt=""></li>
+            <li><img src="https://images.pexels.com/photos/5416085/pexels-photo-5416085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" id="prayer" width="200px" alt=""></li>
+        
+            <li><a href="http://google.com" id="google">Google</a></li>
+
+        </ul>
+    </div>
+    
+</body>
+
+    <script>
+        // document.getElementById('owl').addEventListener('click',function(){
+        //     alert("owl clicked")
+        // })
+
+            document.querySelector('#images').addEventListener('click',function(e){
+                console.log(e);
+                console.log(e.target);
+                console.log(e.target.parentNode);
+
+
+                
+            })
+
+
+
+
+
+    </script>
+
+
+</html>

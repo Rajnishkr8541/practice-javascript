@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 2px black;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#grey{background-color: grey;}
+#white{background-color: white;}
+#blue{background-color: blue;}
+#yellow{background-color: yellow;}
